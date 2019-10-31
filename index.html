@@ -1,9 +1,14 @@
+<!--
+9/30: added CSS buttons with pseudo-classes.
+10/7: swapped out the old style sheet for another, so the whole site is uniform.
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <title>Hannah's Home</title>
 <meta charset="utf-8">
-<link href="mySite.css" rel="stylesheet">
+<link href="styleSheet2.css" rel="stylesheet">
 </head>
 <body>
 <div id="wrapper">
@@ -11,12 +16,11 @@
    <h1>Hannah Eilers Home</h1>
  </header>
    <nav>
-     <a href="index.html">Home</a> 
-     <a href="about.html">About</a>
-     <a href="Web_Research_01.pdf">Research-1</a>
-     <a href="Java_Jam\Tutorial_02/index.html">Tutorial-2</a>
-     <a href="Java_Jam\Tutorial_03/index.html">Tutorial-3</a>
- </nav>
+     <a class="button" href="index.html">Home</a> 
+     <a class="button" href="about.html">About</a>
+     <a class="button" href="contact.html">Contact</a>
+     <a class="button" href="assignments.html">Assignments</a>
+</nav>
  <main>
    <h2>CSWB110 Course Objectives</h2>
   <p>This is my class site to show what I have learned and what I'm working on in CSWB110! Below are some of the course topics I will cover in my time taking CSWB110 at Palomar College.</p>
@@ -35,6 +39,19 @@
      <li class="feature">Create Succinct CSS Files</li>  	
      <li>Understand "how it all works"</li>
    </ul>
+<table>
+    <tr>
+	<td colspan="2">Most Recent Assignments</td>
+    </tr>
+    <tr>
+     <td><a href="Assignments/Tutorial_09/index.html">Tutorial 9</a></td>
+	<td><p>This is the week 9 JavaJam assignment where we practice working with forms and inputs.</p></td>
+    </tr>
+    <tr>
+     <td><a href="Assignments/Tutorial_10.pdf">Tutorial 10</a></td>
+	<td><p>This is the week 10 Web Research assignment where we verify and check a page of our site for usability.</p></td>
+    </tr>
+</table>
  </main>
   <footer>Copyright &copy; Hannah Marie Eilers
   <a href="mailto:yourfirstname@yourlastname.com">yourfirstname@yourlastname.com</a>
