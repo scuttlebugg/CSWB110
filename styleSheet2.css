@@ -6,6 +6,9 @@
 10/14: added table stuff for making my assignments and main page prettier!
 10/18: input, label, form elements
 10/28: added table border, was located in HTML file
+11/4: included an audio element.
+11/10: added item class, changed photo album format to match example in the text.
+11/13: added float right class for images in shopping cart, removed polaroid CSS feature from album.
 */
 
 form { padding: 2em; }
@@ -33,6 +36,21 @@ header {
 
 caption { padding:1em;
 	font-size:2em;}
+audio {}
+
+ul { list-style-type: none; }
+
+li { display: inline-block;
+	width: 245px;
+	height: 290px;
+	padding-bottom: 10px;
+	margin: 10px;
+	background-color: #EAEAEA;
+	text-align: center;
+	font-style: italic;
+	font-family: Georgia, serif;
+	box-shadow: 10px 10px 5px grey;
+}
 
 table { margin: auto;
 	width: 70%; 
@@ -114,12 +132,21 @@ footer { padding-top:10px;
 	   padding-right: 20%;
 }
 
-.polaroid {
-  width: 284px;
-  padding: 30px 10px 20px 10px;
-  border: 1px solid #BFBFBF;
-  background-color: white;
-  box-shadow: 5px 5px 5px #555;
+.item { background-color: #FAF9F7;
+	margin: 2em 3em;
+	width: 80%;
+	padding: 1em;
+	overflow: auto;
+}
+
+.floatright { float: right;
+	padding-bottom: 2em;
+	padding-right: 2em;
+}
+
+.socials { display: inline-block;
+	padding: 1em;
+
 }
 
 @media only screen and (max-width:1024px) {
